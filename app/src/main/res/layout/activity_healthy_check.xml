@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Ui.Home.HealthyCheck">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cstHealthCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/tvHealthCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_bold"
+                android:text="@string/health_check"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/ivSetting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_setting"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/cstHealthCheck">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12sp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/llBmiCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="184sp"
+                    android:layout_marginRight="6sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_bgr_bmicalculator"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:background="@color/transparent"
+                        android:layout_width="80sp"
+                        android:layout_height="80sp"
+                        android:src="@drawable/ic_bmi_calculator" />
+
+                    <TextView
+                        android:background="@color/transparent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inter_bold"
+                        android:text="@string/bmi_calculator"
+                        android:textAlignment="center"
+                        android:textColor="@color/_010101"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="6sp"
+                        android:fontFamily="@font/inter_regular"
+                        android:text="@string/calculate_body_mass_index"
+                        android:textAlignment="center"
+                        android:background="@color/transparent"
+                        android:textColor="@color/_010101"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llAissistant"
+                    android:layout_width="0dp"
+                    android:layout_height="184sp"
+                    android:layout_marginLeft="6sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_bgr_aiassistant"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80sp"
+                        android:layout_height="80sp"
+                        android:background="@color/transparent"
+                        android:src="@drawable/ic_ai_assistant" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inter_bold"
+                        android:text="@string/ai_assistant"
+                        android:textAlignment="center"
+                        android:background="@color/transparent"
+                        android:textColor="@color/_010101"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="6sp"
+                        android:fontFamily="@font/inter_regular"
+                        android:text="@string/offers_ai_based_support"
+                        android:textAlignment="center"
+                        android:background="@color/transparent"
+                        android:textColor="@color/_010101"
+                        android:textSize="10sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12sp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/ll1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12sp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+
+                    android:id="@+id/llTrackingreport"
+                    android:layout_width="0dp"
+                    android:layout_height="184sp"
+                    android:layout_marginRight="6sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_bgr_trackingrepot"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80sp"
+                        android:background="@color/transparent"
+                        android:layout_height="80sp"
+                        android:src="@drawable/ic_tracking_report" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inter_bold"
+                        android:text="Tracking report"
+                        android:background="@color/transparent"
+                        android:textAlignment="center"
+                        android:textColor="@color/_010101"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="6sp"
+                        android:fontFamily="@font/inter_regular"
+                        android:text="@string/view_bmi_detailed_charts_over_time"
+                        android:textAlignment="center"
+                        android:background="@color/transparent"
+                        android:textColor="@color/_010101"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llNews"
+                    android:layout_width="0dp"
+                    android:layout_height="184sp"
+                    android:layout_marginLeft="6sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_bgr_news"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80sp"
+                        android:layout_height="80sp"
+                        android:background="@color/transparent"
+                        android:src="@drawable/ic_news" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inter_bold"
+                        android:text="@string/news"
+                        android:background="@color/transparent"
+                        android:textAlignment="center"
+                        android:textColor="@color/_010101"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="6sp"
+                        android:fontFamily="@font/inter_regular"
+                        android:text="@string/things_you_should_know_about_bmi"
+                        android:textAlignment="center"
+                        android:background="@color/transparent"
+                        android:textColor="@color/_010101"
+                        android:textSize="10sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

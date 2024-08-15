@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="this_action_may_contain_advertising">Diese Aktion kann Werbung enthalten...</string>
+    <string name="language">Sprache</string>
+    <string name="permission">Erlaubnis!!</string>
+    <string name="simply_enter_your_height_and_weight_to_calculate_your_bmi">Geben Sie einfach Ihre Größe und Ihr Gewicht ein, um Ihren BMI zu berechnen.</string>
+    <string name="allow_access">Zugriff erlauben</string>
+    <string name="health_check">Gesundheitscheck</string>
+    <string name="bmi_calculator">BMI-Rechner</string>
+    <string name="calculate_body_mass_index">Berechnen Sie den Body-Mass-Index.</string>
+    <string name="ai_assistant">KI-Assistent</string>
+    <string name="offers_ai_based_support">Bietet KI-basierte Unterstützung.</string>
+    <string name="view_bmi_detailed_charts_over_time">Detaillierte BMI-Diagramme im Laufe der Zeit anzeigen.</string>
+    <string name="news">Nachrichten</string>
+    <string name="things_you_should_know_about_bmi">Wissenswertes über BMI.</string>
+    <string name="gender">Geschlecht</string>
+    <string name="male">Männlich</string>
+    <string name="female">Weiblich</string>
+    <string name="age">Alter</string>
+    <string name="years_old">Jahre alt</string>
+    <string name="date">Datum</string>
+    <string name="weight">Gewicht</string>
+    <string name="height">Höhe</string>
+    <string name="calculate">Berechnen</string>
+    <string name="your_bmi_is">Ihr BMI ist...</string>
+    <string name="you_are_healthy">Sie sind gesund!</string>
+    <string name="underweight">Untergewicht</string>
+    <string name="_18_5"><![CDATA[< 18.5]]></string>
+    <string name="_18_5_26_3">18.5 - 26.3</string>
+    <string name="overweight">Übergewicht</string>
+    <string name="_26_4_29_7">26.4 - 29.7</string>
+    <string name="obese">Adipös</string>
+    <string name="_29_8">≥ 29.8</string>
+    <string name="view_report">Bericht anzeigen</string>
+    <string name="chat_with_consultant">Mit Berater chatten</string>
+    <string name="your_health">Ihre Gesundheit</string>
+    <string name="_14_8"><![CDATA[<= 14.8]]></string>
+    <string name="_14_9_18">14.9 - 18</string>
+    <string name="_18_1_19_1">18.1 - 19.1</string>
+    <string name="_19_2"><![CDATA[>= 19.2]]></string>
+    <string name="next">Weiter</string>
+    <string name="content_intro_1">Sofortige und präzise BMI-Prüfung.</string>
+    <string name="title_intro_1">Willkommen beim BMI-Rechner!</string>
+    <string name="content_intro_2">Chatten Sie mit unserem KI-Assistenten für personalisierte BMI-Einblicke und Gesundheitstipps.</string>
+    <string name="title_intro_2">Persönlicher KI-Assistent</string>
+    <string name="content_intro_3">Detaillierte BMI-Diagramme im Laufe der Zeit anzeigen.</string>
+    <string name="title_intro_3">Bericht verfolgen</string>
+    <string name="content_intro_4">Ihre Reise zu einem gesünderen Leben beginnt hier.</string>
+    <string name="title_intro_4">Verfolgen Sie Ihre Gesundheit mühelos</string>
+    <string name="setting">Einstellung</string>
+    <string name="languages">Sprachen</string>
+    <string name="rate">Bewerten</string>
+    <string name="share">Teilen</string>
+    <string name="privacy_policy">Datenschutzrichtlinie</string>
+    <string name="version">Version</string>
+    <string name="do_you_like_this_app">Gefällt Ihnen diese App?</string>
+    <string name="let_us_know_your_experience_5_stars_is_the_best_on_google_play">Lassen Sie uns Ihre Erfahrungen wissen, 5 Sterne sind die besten im Google Play!</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="sumbit">Einreichen</string>
+    <string name="thank_you">Vielen Dank!</string>
+
+
+</resources>

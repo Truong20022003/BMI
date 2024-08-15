@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/img_logo_app"
+        android:label="@string/app_name"
+        android:logo="@drawable/img_logo_app"
+        android:roundIcon="@drawable/img_logo_app"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BMI"
+        tools:targetApi="34">
+        <receiver
+            android:name=".Notifycation.BmiReminderReceiver"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name=".Ui.News.NewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ui.TrackingReport.TrackingReportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ui.Language.LanguageSettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ui.Settings.SettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ui.YourHealhKid.YourhealthKid"
+            android:exported="false" />
+        <activity
+            android:name=".Ui.YourHealthOld.YourHealthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ui.BmiCalculator.BmiCalculatorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ui.NoInternet.NoInternetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ui.Home.HealthyCheck"
+            android:exported="false" />
+        <activity
+            android:name=".Ui.ChatAI.Activity.ChatActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ui.Permission.PermissionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ui.Intro.IntroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ui.Language.LanguageStartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ui.Splash.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="#F96426" android:state_checked="true"/> <!-- Màu khi bật -->
+    <item android:color="#D3D3D3"/> <!-- Màu khi tắt -->
+</selector>

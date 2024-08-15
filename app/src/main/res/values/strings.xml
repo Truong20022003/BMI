@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name" translatable="false">BMI</string>
+    <string name="this_action_may_contain_advertising">This action may contain advertising...</string>
+    <string name="language">Language</string>
+    <string name="permission">Permission!!</string>
+    <string name="simply_enter_your_height_and_weight_to_calculate_your_bmi">Simply enter your height and weight to calculate your BMI.</string>
+    <string name="allow_access">Allow access</string>
+    <string name="health_check">Health Check</string>
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="calculate_body_mass_index">Calculate body mass index.</string>
+    <string name="ai_assistant">AI assistant</string>
+    <string name="offers_ai_based_support">Offers AI-based support.</string>
+    <string name="view_bmi_detailed_charts_over_time">View BMI detailed charts over time.</string>
+    <string name="news">News</string>
+    <string name="things_you_should_know_about_bmi">Things you should know about BMI.</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="age">Age</string>
+    <string name="years_old">Years Old</string>
+    <string name="date">Date</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="calculate">Calculate</string>
+    <string name="your_bmi_is">Your BMI is...</string>
+    <string name="you_are_healthy">You are Healthy !</string>
+    <string name="underweight">Underweight</string>
+    <string name="_18_5"><![CDATA[< 18.5]]></string>
+    <string name="_18_5_26_3">18.5 - 26.3</string>
+    <string name="overweight">Overweight</string>
+    <string name="_26_4_29_7">26.4 - 29.7</string>
+    <string name="obese">Obese</string>
+    <string name="_29_8">≥ 29.8</string>
+    <string name="view_report">View Report</string>
+    <string name="chat_with_consultant">Chat with consultant</string>
+    <string name="your_health">Your health</string>
+    <string name="_14_8"><![CDATA[<= 14.8]]></string>
+    <string name="_14_9_18">14.9 - 18</string>
+    <string name="_18_1_19_1">18.1 - 19.1</string>
+    <string name="_19_2"><![CDATA[>= 19.2]]></string>
+    <string name="next">Next</string>
+    <string name="content_intro_1">Instant and precise BMI check.</string>
+    <string name="title_intro_1">Welcome to BMI Calculator!</string>
+    <string name="content_intro_2">Chat with our AI assistant for personalized BMI insights and health tips.</string>
+    <string name="title_intro_2">Personal AI Assistant</string>
+    <string name="content_intro_3">View BMI detailed charts over time.</string>
+    <string name="title_intro_3">Tracking report</string>
+    <string name="content_intro_4">Your journey to a healthier you starts here.</string>
+    <string name="title_intro_4">Track your health effortlessly</string>
+    <string name="setting">Setting</string>
+    <string name="languages">Languages</string>
+    <string name="rate">Rate</string>
+    <string name="share">Share</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="version">Version</string>
+    <string name="do_you_like_this_app">Do you like this app?</string>
+    <string name="let_us_know_your_experience_5_stars_is_the_best_on_google_play">Let us know your experience 5 stars is the best on Google Play!</string>
+    <string name="cancel">Cancel</string>
+    <string name="sumbit">Sumbit</string>
+    <string name="thank_you">Thank you!</string>
+    <string name="history">History</string>
+    <string name="enter_your_question">Enter your question</string>
+    <string name="start_conversation">Start conversation</string>
+    <string name="you_are_underweight">You are Underweight !</string>
+    <string name="you_are_overweight">You are Overweight !</string>
+    <string name="you_are_obese">You are Obese !</string>
+    <string name="normal">Normal</string>
+    <string name="it_s_time_to_track_your_progress">It\'s time to track your progress!</string>
+    <string name="don_t_forget_to_log_your_weight_today_to_stay_on_top_of_your_health_goals">Don\'t forget to log your weight today to stay on top of your health goals.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
